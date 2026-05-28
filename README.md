@@ -1,38 +1,435 @@
 # ♟️ Chess Puzzle Studio
 
 <p align="center">
-  <img src="https://images.unsplash.com/photo-1529699211952-734e80c4d42b?q=80&w=1000&auto=format&fit=crop" width="900" alt="Chess Puzzle Studio Banner">
+  <img src="./assets/banner.png" width="100%" alt="Chess Puzzle Studio Banner">
+</p>
+
+<h1 align="center">Chess Puzzle Studio</h1>
+
+<p align="center">
+  A premium browser-native chess puzzle creation platform for building, recording, validating, and exporting tactical chess puzzles directly inside the browser.
 </p>
 
 <p align="center">
-  <strong>A modern browser-based chess puzzle creation studio built for fast position editing, move validation, and local tactical dataset management.</strong>
-</p>
-
-<p align="center">
-
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white">
-<img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white">
-<img src="https://img.shields.io/badge/jQuery-0769AD?style=flat&logo=jquery&logoColor=white">
-<img src="https://img.shields.io/badge/Chess.js-Rule_Validation-black?style=flat">
-<img src="https://img.shields.io/badge/Chessboard.js-Interactive_Board-0D9488?style=flat">
-<img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat">
-
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white">
+  <img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white">
+  <img src="https://img.shields.io/badge/Chess.js-Rule%20Validation-black?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Chessboard.js-Interactive%20Board-0D9488?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Zero%20Backend-100%25%20Client%20Side-111827?style=for-the-badge">
+  <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge">
 </p>
 
 ---
 
-# 🚀 Overview
+# ✨ Overview
 
-Chess Puzzle Studio is a lightweight single-page web application designed for creating and managing custom chess tactics entirely inside the browser.
+Chess Puzzle Studio is a lightweight yet powerful browser-based chess puzzle creation environment built for:
 
-The application combines:
+- Chess players
+- Tactical puzzle creators
+- Coaches
+- Developers
+- Dataset builders
+- Sleep-deprived humans making illegal bishop sacrifices at 3 AM
 
-* Interactive board editing
-* Legal move validation
-* Puzzle recording workflows
-* Local database persistence
-* JSON batch exporting
+Everything runs entirely client-side.
 
+No backend.  
+No accounts.  
+No setup pain.  
+No npm-induced psychological warfare.
+
+Simply open:
+
+```bash
+index.html
+```
+
+and start creating puzzles instantly.
+
+---
+
+# 🚀 Core Features
+
+# 🎯 Interactive Position Builder
+
+Create custom chess positions visually with:
+
+- Drag & drop controls
+- Tap-to-move support
+- Piece palette insertion
+- Standard setup restoration
+- Board clearing
+- Instant board flipping
+- Free placement editing
+
+Perfect for:
+
+- Tactical studies
+- Puzzle compositions
+- Endgame positions
+- Training exercises
+- Analysis snapshots
+
+---
+
+# ♞ Smart Move Recording Engine
+
+Automatically records:
+
+- Legal chess moves
+- SAN notation
+- Move order
+- Turn validation
+- Real-time rule enforcement
+
+Powered by:
+
+- `chess.js`
+- `chessboard.js`
+
+Example:
+
+```json
+[
+  "e4",
+  "e5",
+  "Nf3",
+  "Nc6",
+  "Bb5"
+]
+```
+
+---
+
+# 🔓 Free-Flow Puzzle Mode
+
+If a custom position violates official chess legality rules, the application intelligently switches into unrestricted recording mode.
+
+This allows creation of:
+
+- Impossible positions
+- Artistic compositions
+- Experimental studies
+- Puzzle fragments
+- Fantasy tactical sequences
+
+Because eventually every chess developer asks:
+
+> “What if physics simply stopped applying to rooks?”
+
+---
+
+# 💾 Local Puzzle Database
+
+Every puzzle is stored directly in browser localStorage.
+
+Features include:
+
+- Persistent local saving
+- Instant loading
+- Rename support
+- Delete support
+- Clipboard JSON copy
+- Batch exporting
+- Offline persistence
+
+No external database required.
+
+Humanity invented cloud-connected refrigerators for some reason.  
+This app remains spiritually opposed to that concept.
+
+---
+
+# 📦 JSON Export Pipeline
+
+Export puzzles into clean structured JSON datasets ready for:
+
+- PostgreSQL
+- MongoDB
+- Chess engines
+- APIs
+- ML datasets
+- Puzzle websites
+
+Example schema:
+
+```json
+{
+  "id": 1716912345678,
+  "name": "Smothered Mate Study",
+  "initial_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR",
+  "turn": "w",
+  "solution": [
+    "e4",
+    "e5",
+    "Nf3",
+    "Nc6",
+    "Bb5"
+  ]
+}
+```
+
+---
+
+# 🖥️ UI Highlights
+
+The interface includes:
+
+- Responsive layout
+- Mobile-friendly interactions
+- Animated toast notifications
+- Interactive move history
+- Touch controls
+- Real-time move tracking
+- Custom modal system
+- Elegant dark UI styling
+- Live validation feedback
+
+The project intentionally avoids frontend frameworks like React or Vue to maintain:
+
+- Fast startup speed
+- Low complexity
+- Maximum portability
+- Zero build tooling
+
+A rare modern web experience where opening the project does *not* require downloading 847MB of dependencies named things like:
+
+```bash
+ultra-hyper-reactive-webpack-plugin-final-final-v2
+```
+
+---
+
+# ⚙️ Technology Stack
+
+| Layer | Technology |
+|---|---|
+| Frontend | HTML5 |
+| Styling | TailwindCSS |
+| DOM Utilities | jQuery |
+| Chess Logic | chess.js |
+| Board Rendering | chessboard.js |
+| Storage | Browser localStorage |
+
+---
+
+# 🧠 Architecture Overview
+
+```text
+Board Setup
+    ↓
+Position Validation
+    ↓
+Move Recording
+    ↓
+SAN Conversion
+    ↓
+Local Persistence
+    ↓
+JSON Export
+```
+
+Simple architecture.  
+Threateningly efficient.
+
+---
+
+# 📂 Project Structure
+
+```bash
+Chess-Puzzle-Maker/
+│
+├── assets/
+│   ├── banner.png
+│   └── .gitkeep
+│
+├── index.html
+├── README.md
+└── LICENSE
+```
+
+Everything important lives inside a single deployable HTML file.
+
+Tiny.  
+Portable.  
+Dangerously convenient.
+
+---
+
+# ⚡ Quick Start
+
+# 1. Clone Repository
+
+```bash
+git clone https://github.com/bytepilot-16/Chess-Puzzle-Maker.git
+```
+
+---
+
+# 2. Enter Project Folder
+
+```bash
+cd Chess-Puzzle-Maker
+```
+
+---
+
+# 3. Launch Application
+
+Simply open:
+
+```bash
+index.html
+```
+
+inside any modern browser.
+
+That’s it.
+
+No installation process.  
+No package managers screaming at you.  
+No configuration rituals under a blood moon.
+
+---
+
+# 🌐 Deployment
+
+Can be deployed instantly on:
+
+- GitHub Pages
+- Netlify
+- Vercel
+- Firebase Hosting
+- Any static hosting provider
+
+Since the project is fully client-side, deployment is absurdly simple.
+
+Refreshing concept in modern web development.
+
+---
+
+# 🔐 Privacy & Security
+
+Chess Puzzle Studio is fully local-first.
+
+This means:
+
+✅ No accounts  
+✅ No analytics  
+✅ No telemetry  
+✅ No cloud tracking  
+✅ No external databases  
+✅ Full local ownership of data  
+
+Your puzzles remain on your machine unless manually exported.
+
+A revolutionary feature now called:
+
+> “basic privacy”
+
+---
+
+# 📱 Browser Compatibility
+
+Tested on:
+
+| Browser | Status |
+|---|---|
+| Chrome | ✅ |
+| Firefox | ✅ |
+| Edge | ✅ |
+| Brave | ✅ |
+| Mobile Chromium | ✅ |
+
+---
+
+# 🔮 Planned Features
+
+Future improvements may include:
+
+- PGN importing
+- Stockfish WASM integration
+- Engine evaluations
+- Puzzle difficulty analysis
+- IndexedDB migration
+- Multiplayer review boards
+- Cloud synchronization
+- Move arrows & annotations
+- Puzzle tagging system
+- Theme customization
+
+Tiny side projects have a habit of evolving into entire platforms.  
+Like digital mold.
+
+---
+
+# 📸 Screenshots
+
+## Creator Studio
+
+<p align="center">
+  <img src="./assets/banner.png" width="100%">
+</p>
+
+---
+
+# 🧩 Why This Project Exists
+
+Most online chess puzzle tools are:
+
+- Slow
+- Bloated
+- Account-locked
+- Overcomplicated
+- Dependent on servers
+- Hostile to experimentation
+
+Chess Puzzle Studio was built to feel:
+
+- Fast
+- Lightweight
+- Local-first
+- Flexible
+- Immediate
+- Fun
+
+A tactical sandbox instead of another subscription service trying to “revolutionize productivity with AI synergy.”
+
+Humanity truly heard “move wooden horse” and invented SaaS billing structures.
+
+---
+
+# 📄 License
+
+Distributed under the MIT License.
+
+See the `LICENSE` file for more information.
+
+---
+
+# 👨‍💻 Author
+
+## bytepilot-16
+
+Built for chess enthusiasts, developers, puzzle composers, and people who somehow enjoy debugging board states recreationally.
+
+---
+
+# ⭐ Support
+
+If you like the project:
+
+- Star the repository
+- Fork it
+- Improve it
+- Build weird puzzle generators with it
+- Pretend your tactical rating is much higher than reality
+
+Ancient chess internet traditions must be preserved.
+
+---
 Everything runs fully client-side with zero backend requirements.
 
 No servers.

@@ -67,3 +67,37 @@ Every custom configuration built in the application workspace compiles cleanly i
     "Bb5"
   ]
 }
+
+
+## 📦 Zero-Dependency Deployment
+
+Because this application relies strictly on modern web APIs and embedded CDNs, it operates completely independent of server configurations or package installations.
+
+1. Clone the repository down to your machine:
+```bash
+git clone [https://github.com/bytepilot-16/Chess-Puzzle-Maker.git](https://github.com/bytepilot-16/Chess-Puzzle-Maker.git)
+
+
+2. Open the directory path:
+
+cd Chess-Puzzle-Maker
+
+3. Launch the environment:
+Simply execute or double-click the index.html file inside any modern browser engine, or activate GitHub Pages for instant remote cloud hosting.
+
+## 🛡️ Security & Integrity
+
+* 100% Client-side operations ensuring full data autonomy[cite: 1].
+* No active data packets cross network boundaries during workspace creations[cite: 1].
+* Seamless decoupling allows integration into standard server-side relational stacks like PostgreSQL[cite: 1].
+
+---
+
+## 📄 License
+
+This repository is distributed under open-source governance guidelines overseen by the **MIT License**. Check the `LICENSE` document details for modification permissions[cite: 1].
+
+---
+
+## 👨‍💻 Project Creator
+**D. Shashank**

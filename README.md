@@ -27,33 +27,29 @@
 
 </p>
 
----
-
-## 🛠️ System Architecture
-
+🛠️ System Architecture
 The studio leverages a decentralized frontend design pattern utilizing standard client-side storage mechanisms and stateless algorithmic evaluation modules:
 
-*   **Algorithmic Rule Engine (`chess.js`):** Computes real-time vector paths, tracks active state mutations, and rigorously enforces FIDE compliance.
-*   **Coordinate Canvas Layer (`chessboard.js`):** A custom event-driven UI adapter handling programmatic drawing, responsive grid resizing, and cross-platform piece positioning.
-*   **Data Serialization Engine:** Maps internal state arrays into strict structural schema definitions for immediate asynchronous batch data handling.
+Algorithmic Rule Engine (chess.js): Computes real-time vector paths, tracks active state mutations, and rigorously enforces FIDE compliance.
 
----
+Coordinate Canvas Layer (chessboard.js): A custom event-driven UI adapter handling programmatic drawing, responsive grid resizing, and cross-platform piece positioning.
 
-## 🔥 Core Capabilities
+Data Serialization Engine: Maps internal state arrays into strict structural schema definitions for immediate asynchronous batch data handling.
 
-*   **Granular Position Designer:** Seamlessly build custom positional problems utilizing an active drag-and-drop piece tray, or instantly initialize standard starting templates[cite: 1].
-*   **Adaptive Move Verification:** Automatic capture of manual piece actions, converting real-time maneuvers into strict Standard Algebraic Notation (SAN) sequences[cite: 1].
-*   **Hybrid Free-Flow Mode:** An intelligent validation fallback system that drops into an unchecked tracking environment if an unconventional, custom layout configuration is designed[cite: 1].
-*   **Localized Database Management:** High-performance persistence layer simulating schema management using client browser structures to maintain custom puzzles over time[cite: 1].
-*   **Batch Serialization Pipeline:** Instantly bundles the entire locally stored workspace configuration into a highly optimized JSON output file with a single operation[cite: 1].
+🔥 Core Capabilities
+Granular Position Designer: Seamlessly build custom positional problems utilizing an active drag-and-drop piece tray, or instantly initialize standard starting templates.
 
----
+Adaptive Move Verification: Automatic capture of manual piece actions, converting real-time maneuvers into strict Standard Algebraic Notation (SAN) sequences.
 
-## 📁 Schema Blueprint
+Hybrid Free-Flow Mode: An intelligent validation fallback system that drops into an unchecked tracking environment if an unconventional, custom layout configuration is designed.
 
-Every custom configuration built in the application workspace compiles cleanly into an industry-standard, lightweight exchange format[cite: 1]:
+Localized Database Management: High-performance persistence layer simulating schema management using client browser structures to maintain custom puzzles over time.
 
-```json
+Batch Serialization Pipeline: Instantly bundles the entire locally stored workspace configuration into a highly optimized JSON output file with a single operation.
+
+📁 Schema Blueprint
+Every custom configuration built in the application workspace compiles cleanly into an industry-standard, lightweight exchange format.
+
 {
   "id": 1716912345678,
   "name": "Tactical Sequence 1",
@@ -68,36 +64,39 @@ Every custom configuration built in the application workspace compiles cleanly i
   ]
 }
 
-
-## 📦 Zero-Dependency Deployment
-
+📦 Zero-Dependency Deployment
 Because this application relies strictly on modern web APIs and embedded CDNs, it operates completely independent of server configurations or package installations.
 
 1. Clone the repository down to your machine:
-```bash
-git clone [https://github.com/bytepilot-16/Chess-Puzzle-Maker.git](https://github.com/bytepilot-16/Chess-Puzzle-Maker.git)
 
+   git clone https://github.com/bytepilot-16/Chess-Puzzle-Maker.git
 
 2. Open the directory path:
 
-cd Chess-Puzzle-Maker
+   cd Chess-Puzzle-Maker
 
 3. Launch the environment:
-Simply execute or double-click the index.html file inside any modern browser engine, or activate GitHub Pages for instant remote cloud hosting.
 
-## 🛡️ Security & Integrity
+   Simply execute or double-click the index.html file inside any modern browser engine[cite: 1], or activate GitHub Pages for instant remote cloud hosting.
 
-* 100% Client-side operations ensuring full data autonomy[cite: 1].
-* No active data packets cross network boundaries during workspace creations[cite: 1].
-* Seamless decoupling allows integration into standard server-side relational stacks like PostgreSQL[cite: 1].
 
----
+🛡️ Security & Integrity
+100% Client-side operations ensuring full data autonomy[cite: 1].
 
-## 📄 License
+No active data packets cross network boundaries during workspace creations[cite: 1].
 
-This repository is distributed under open-source governance guidelines overseen by the **MIT License**. Check the `LICENSE` document details for modification permissions[cite: 1].
+Seamless decoupling allows integration into standard server-side relational stacks like PostgreSQL.
 
----
+📄 License
+This repository is distributed under open-source governance guidelines overseen by the MIT License. Check the LICENSE document details for modification permissions.
 
-## 👨‍💻 Project Creator
-**D. Shashank**
+👨‍💻 Project Creator
+D. Shashank
+
+   
+
+
+
+
+
+
